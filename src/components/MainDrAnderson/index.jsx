@@ -1,6 +1,7 @@
 import React from "react";
 import "./maindr.css";
 import "./animation.css";
+import helplogo from "../MainDrAnderson/help.jpg"
 import { motion } from "framer-motion";
 // import { Link } from "react-router-dom";
 const MainDrAnderson = () => {
@@ -8,8 +9,10 @@ const MainDrAnderson = () => {
     <div className="dr-backround">
       <h1>DR.MATTHEW ANDERSON </h1>
       <p>
-        Watch video to learn why he <br /> is the rigth doctor for you{" "}
+      These doctors are the right <br/>choice for you
       </p>
+      <div className="helplogoo">
+      <img src={helplogo} alt="jkl" />
       <motion.div 
         className="box"
         animate={{
@@ -25,6 +28,7 @@ const MainDrAnderson = () => {
           repeatDelay: 1,
         }}
       />
+    </div>
     </div>
   );
 };
