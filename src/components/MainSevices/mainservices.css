@@ -16,6 +16,7 @@
     justify-content: center;
     margin-top: 80px;
     color: dodgerblue;
+    
  
 }
 .services>p{
@@ -27,6 +28,8 @@
     align-items: center;
     justify-content: center;
     margin-top: 10px;
+    flex-direction: column;
+    text-align: center;
 }
 .boxname{
     display: flex;
@@ -40,14 +43,26 @@
     background-color: plum;
     width: 200px;
     height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  
 }
 .mainbox>h1{
     font-size: large;
+    align-items: center;
 }
 .mainbox1{
     background-color: paleturquoise;
     width: 200px;
     height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 .mainbox1>h1{
     font-size: large;
@@ -56,6 +71,11 @@
     background-color: cornflowerblue;
     width: 200px;
     height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 .mainbox2>h1{
     font-size: large;
@@ -64,6 +84,11 @@
     background-color: burlywood;
     width: 200px;
     height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 .mainbox3>h1{
     font-size: large;
