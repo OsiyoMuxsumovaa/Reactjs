@@ -14,7 +14,7 @@ const Navbar = () => {
           <Link to={"/"}>Home</Link>
           <Link to={"/company"}>Company</Link>
           <Link to={"/services"}>Services</Link>
-          <Link to={"/contacts"}>Contacts</Link>
+          <Link to={"/contacts"}>Contactlar</Link>
 
           <p>(123)45-67-890</p>
           <button className="btn">Book Now</button>
