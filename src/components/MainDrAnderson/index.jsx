@@ -1,8 +1,8 @@
 import React from "react";
 import "./maindr.css";
-import "./animation.css";
+// import "./animation.css";
 import helplogo from "../MainDrAnderson/help.jpg"
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 // import { Link } from "react-router-dom";
 const MainDrAnderson = () => {
   return (
@@ -13,7 +13,7 @@ const MainDrAnderson = () => {
       </p>
       <div className="helplogoo">
       <img src={helplogo} alt="jkl" />
-      <motion.div 
+      {/* <motion.div 
         className="box"
         animate={{
           scale: [1, 2, 2, 1, 1],
@@ -27,7 +27,7 @@ const MainDrAnderson = () => {
           repeat: Infinity,
           repeatDelay: 1,
         }}
-      />
+      />more */}
     </div>
     </div>
   );
