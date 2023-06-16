@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.brend-bg{
+    background-color: white;
+    width: 100%;
+    height: 1100px;
+}
+.logo-doctor-brend{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .logo-doctor-brend> img {
+    width: 690px;
+    height: 470px;
+    transform: translate(350px,130px);
+  }
+  .brend-bg>h1{
+    font-size: 50px;
+    transform: translate(100px,100px);
+  }
+  .brend-bg>p{
+    font-size: 20px;
+    transform: translate(100px,120px);
+  }
+  .brend-bg>button{
+    width: 200px;
+    height: 50px;
+    transform: translate(900px,70px);
+    color: white;
+  }
+  .fonts{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    transform: translate(0px,-350px);
+  }
+ 

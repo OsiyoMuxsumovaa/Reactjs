@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.backgroundd{
+    background-color: aliceblue;
+    width: 100%;
+    height: 1750px;
+}
+.logo-containerr>img{
+  position: relative;
+  transform: translate(100px, 100px);
+}
+.backgroundd>h1{
+    font-size: 70px;
+    position: relative;
+    transform: translate(100px, 200px);
+}
+.linep{
+    display: flex;
+    font-size: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 40px;
+    position: relative;
+    transform: translate(-100px,50px);
+}
+.backgroundd>h3{
+    font-size: 15px;
+    position: relative;
+    transform: translate(820px, 70px);
+    color: rgb(83, 83, 83);
+}
+.backgroundd> button{
+    background-color: cornflowerblue;
+    position: relative;
+    transform: translate(100px,180px);
+}
+.boxnum{
+    background-color: chocolate;
+    width: 400px;
+    height: 100px;
+    position: relative;
+    transform: translate(820px,80px);
+    color: white;
+}
+.numbers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 120px;
+    position: relative;
+    transform: translate(0px,20px);
+}
+.words{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    position: relative;
+    transform: translate(0px,30px);
+}
+.backgroundd>h2{
+    font-size: 70px;
+    position: relative;
+    transform: translate(100px, 200px);
+}
+.tree-boxs{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    position: relative;
+    transform: translate(0px,300px);
+}
+.box1{
+    width: 350px;
+    height: 180px;
+    background-color: white;
+    border: 2px solid chocolate;
+}
+.box2{
+    width: 350px;
+    height: 180px;
+    background-color: white;
+    border: 2px solid chocolate;
+}.box3{
+    width: 350px;
+    height: 180px;
+    background-color: white;
+    border: 2px solid chocolate;
+}

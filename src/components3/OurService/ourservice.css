@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.our-service-bg{
+    background-color: rgb(105, 177, 255);
+    width: 100%;
+    height: 800px;
+}
+.our-service-bg>h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    transform: translate(0px,50px);
+}
+.our-service-bg>p{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    transform: translate(0px,50px);
+}
+.cd-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 130px;
+    transform: translate(0px,100px);
+}
+.mu-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 130px;
+    transform: translate(0px,150px);
+}
+.cardioligy{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.neurology{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.dents{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.medicine{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.orthopedic{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.urology{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}

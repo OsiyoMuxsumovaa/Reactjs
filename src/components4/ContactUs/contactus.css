@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.dr-backround{
+    height: 900px;
+}
+.background-btn{
+    background-color: white;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transform: translate(340px,70px);
+}
+.line-button{
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+   row-gap: 10px;
+   position: relative;
+   transform: translate(0px,-100px);
+
+}
+input{
+  width: 300px;
+  height: 50px;
+}
+textarea{
+   height: 90px;
+   position: relative;
+   transform: translate(490px,-150px);
+}
+button{
+    background-color:cornflowerblue ;
+    border: 0px;
+    width: 200px;
+    height: 40px;
+    position: relative;
+    transform: translate(70px,-100px);
+}

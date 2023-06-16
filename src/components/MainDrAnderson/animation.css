@@ -1,4 +1,4 @@
-body {
+/* body {
     --black: #000000;
     --ash-black: #222;
     --white:rgb(76, 133, 238);
@@ -30,8 +30,8 @@ body {
   
   #progress {
     position: fixed;
-    top: 20px;
-    left: 20px;
+    top: 100px;
+    left: 100px;
     transform: rotate(-90deg);
   }
   
@@ -112,4 +112,4 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-  }
+  } */

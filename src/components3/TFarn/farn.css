@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.doctorTF-bg{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(69, 159, 249);
+}
+.logo-doctorTF {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+  }
+  .logo-doctorTF>p{
+    font-size: 22px;
+    transform: translate(700px,-250px);
+  }
+  
+  .logo-doctorTF > img {
+    width: 370px;
+    height: 470px;
+    transform: translate(200px,100px);
+   
+  }
+  .doctorTF-bg>h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    transform: translate(0px,100px);
+  }
+  .doctorTF-bg>p{
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translate(0px,110px);
+  }
+  .animationbox{
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+  
+    width: 150px;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(69, 159, 249);
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    position: relative;
+    transform: translate(650px,-400px);
+  }
+  
+  @keyframes move {
+    0%   { left: 0px; }
+    50%  { left: 200px; }
+    100% { left: 0px; }
+  }
