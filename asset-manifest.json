@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Reactjs/static/css/main.50bce249.css",
-    "main.js": "/Reactjs/static/js/main.655fbd70.js",
+    "main.js": "/Reactjs/static/js/main.6a466f15.js",
     "static/media/help.jpg": "/Reactjs/static/media/help.5f15628fea4e7972d249.jpg",
     "static/media/doctorbrend.png": "/Reactjs/static/media/doctorbrend.549edf464800e35e2692.png",
     "static/media/logotipp.png": "/Reactjs/static/media/logotipp.98a82ca7f87f47170912.png",
@@ -22,10 +22,10 @@
     "static/media/doctr2.png": "/Reactjs/static/media/doctr2.4b9ffc00a25bab41c9d9.png",
     "index.html": "/Reactjs/index.html",
     "main.50bce249.css.map": "/Reactjs/static/css/main.50bce249.css.map",
-    "main.655fbd70.js.map": "/Reactjs/static/js/main.655fbd70.js.map"
+    "main.6a466f15.js.map": "/Reactjs/static/js/main.6a466f15.js.map"
   },
   "entrypoints": [
     "static/css/main.50bce249.css",
-    "static/js/main.655fbd70.js"
+    "static/js/main.6a466f15.js"
   ]
 }
