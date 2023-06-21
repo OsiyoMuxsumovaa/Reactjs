@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
 import Contacts from "./pages/Contacts";
@@ -11,7 +11,7 @@ import MyPageee from "../src/components4/container3/index";
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/home" element={<Home />} />
           <Route path="/company" element={<Company />} />
@@ -21,7 +21,7 @@ const App = () => {
           <Route path="/my-pagee" element={<MyPagee />} />
           <Route path="/my-pageee" element={<MyPageee />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 };

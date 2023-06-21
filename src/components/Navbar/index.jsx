@@ -11,7 +11,7 @@ const Navbar = () => {
         <h1 className="logoname">PHG</h1>
        
         <div className="links">
-          <Link to={"/"}>Home</Link>
+          <Link to={"/home"}>Home</Link>
           <Link to={"/company"}>Company</Link>
           <Link to={"/services"}>Services</Link>
           <Link to={"/contacts"}>Contact</Link>
