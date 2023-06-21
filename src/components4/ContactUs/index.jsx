@@ -1,8 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
 import "./contactus.css"
-import { Link } from "react-router-dom";
+
 const ContactUs = () => {
-  
     return (
         <div className="dr-backround">
         <h1>Contact Us</h1>
